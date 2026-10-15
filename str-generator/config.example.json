@@ -1,0 +1,26 @@
+{
+    "branding": {
+        "company": "Your MSP",
+        "phone": "(555) 555-0100",
+        "email": "support@example.com",
+        "helpdesk_url": "https://helpdesk.example.com/",
+        "review_url": "",
+        "logo": "logo.png",
+        "local_admin_users": ["yourmspadmin"]
+    },
+    "services": {
+        "_comment": "Halo service IDs (Configuration > Services). Find yours with the Halo MCP tool list_client_services.",
+        "plan":   { "101": "Managed Plan", "102": "Basic Plan" },
+        "backup": { "201": "Cove M365 Backup", "202": "Cove PC All-In", "203": "Cove Server Basic",
+                    "204": "Cove Server Standard", "205": "Cove Server Premium" },
+        "other":  { "301": "Huntress ITDR", "302": "Huntress SAT", "303": "LastPass", "304": "Duo" }
+    },
+    "graph": {
+        "tenant_id": "00000000-0000-0000-0000-000000000000",
+        "client_id": "00000000-0000-0000-0000-000000000000",
+        "hostname": "yourco.sharepoint.com",
+        "site_path": "",
+        "library": "Shared Documents",
+        "client_subfolder": "Strategic Tech Review"
+    }
+}
