@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "halo": {
+      "command": "C:\\path\\to\\halo-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\halo-mcp\\server.py"],
+      "env": {
+        "HALO_BASE_URL": "https://yourco.halopsa.com",
+        "HALO_CLIENT_ID": "<your Halo API application client ID>",
+        "HALO_SCOPE": "all",
+        "HALO_TENANT": "<tenant, Halo-hosted only>"
+      }
+    },
+    "nsight": {
+      "command": "C:\\path\\to\\halo-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\halo-mcp\\nsight-mcp\\server.py"],
+      "env": { "NSIGHT_SERVER": "www.systemmonitor.us" }
+    }
+  }
+}

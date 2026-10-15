@@ -1,0 +1,24 @@
+# Secrets and machine-specific settings (setup.ps1 writes these)
+claude_config_snippet.json
+nsight-mcp/claude_config_snippet.json
+str-generator/config.json
+.env
+
+# Generated reports and client data - never commit
+str-generator/output/
+*.log
+*.csv
+*.xlsx
+*.pdf
+*.html
+halo_*.json
+nsight_*.json
+
+# Local backups and environments
+*.before-*.py
+*.backup*.py
+.venv/
+__pycache__/
+
+# Built SharePoint package (rebuild with build_sppkg.py)
+*.sppkg
